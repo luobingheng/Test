@@ -11,7 +11,7 @@
 #import "DLNewPostViewController.h"
 #import "DLFollowingViewController.h"
 #import "DLMeViewController.h"
-
+#import "DLTabBar.h"
 
 
 @interface DLTabBarController ()
@@ -23,28 +23,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
  
-    [self setChildVC];
+    [self setUp];
 }
 
-- (void)setChildVC{
+- (void)setUp{
     
-    DLEssenceViewController *essenceVC = [DLEssenceViewController new];
-    essenceVC.view.backgroundColor = DLRandomColor;
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:essenceVC]];
+    [self setChildVC:[DLEssenceViewController new] withTitle:@"精华" imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
     
-    DLNewPostViewController *newPostVC = [DLNewPostViewController new];
-    newPostVC.view.backgroundColor = DLRandomColor;
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:newPostVC]];
+    [self setChildVC:[DLNewPostViewController new] withTitle:@"新帖" imageName:@"tabBar_new_icon" selectedImageName:@"tabBar_new_click_icon"];
     
-    DLFollowingViewController *followingVC = [DLFollowingViewController new];
-    followingVC.view.backgroundColor = DLRandomColor;
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:followingVC]];
+    [self setChildVC:[DLFollowingViewController new] withTitle:@"关注" imageName:@"tabBar_friendTrends_icon" selectedImageName:@"tabBar_friendTrends_click_icon"];
     
-    DLMeViewController *meVC = [DLMeViewController new];
-    meVC.view.backgroundColor = DLRandomColor;
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:meVC]];
+    [self setChildVC:[DLMeViewController new] withTitle:@"我" imageName:@"tabBar_me_icon" selectedImageName:@"tabBar_me_click_icon"];
     
     
+    
+    [self setValue:[DLTabBar new] forKey:@"tabBar"];
+    
+
 }
+
+- (void)setChildVC:(UIViewController *)vc withTitle:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName{
+    
+    vc.view.backgroundColor = DLRandomColor;
+    vc.title = title;
+    vc.tabBarItem.image = [UIImage imageNamed:imageName];
+    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
+    
+    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:vc]];
+}
+
 
 @end
