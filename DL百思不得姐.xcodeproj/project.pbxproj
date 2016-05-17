@@ -16,8 +16,8 @@
 		6519B08A1CE6200000DD1CDD /* DL_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519B0891CE6200000DD1CDD /* DL_____UITests.m */; };
 		655976371CE8752A009A7F62 /* DLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976361CE8752A009A7F62 /* DLTabBarController.m */; };
 		6559763F1CE87847009A7F62 /* DLEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559763D1CE87847009A7F62 /* DLEssenceViewController.m */; };
-		655976431CE8792B009A7F62 /* DLNewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976421CE8792B009A7F62 /* DLNewPostViewController.m */; };
-		655976461CE8794F009A7F62 /* DLFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976451CE8794F009A7F62 /* DLFollowingViewController.m */; };
+		655976431CE8792B009A7F62 /* DLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976421CE8792B009A7F62 /* DLNewViewController.m */; };
+		655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976451CE8794F009A7F62 /* DLFriendTrendsViewController.m */; };
 		655976491CE87957009A7F62 /* DLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976481CE87957009A7F62 /* DLMeViewController.m */; };
 		6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559764E1CE89ADE009A7F62 /* DLTabBar.m */; };
 /* End PBXBuildFile section */
@@ -59,10 +59,10 @@
 		655976361CE8752A009A7F62 /* DLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTabBarController.m; sourceTree = "<group>"; };
 		6559763C1CE87847009A7F62 /* DLEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLEssenceViewController.h; sourceTree = "<group>"; };
 		6559763D1CE87847009A7F62 /* DLEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLEssenceViewController.m; sourceTree = "<group>"; };
-		655976411CE8792B009A7F62 /* DLNewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNewPostViewController.h; sourceTree = "<group>"; };
-		655976421CE8792B009A7F62 /* DLNewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNewPostViewController.m; sourceTree = "<group>"; };
-		655976441CE8794F009A7F62 /* DLFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFollowingViewController.h; sourceTree = "<group>"; };
-		655976451CE8794F009A7F62 /* DLFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFollowingViewController.m; sourceTree = "<group>"; };
+		655976411CE8792B009A7F62 /* DLNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNewViewController.h; sourceTree = "<group>"; };
+		655976421CE8792B009A7F62 /* DLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNewViewController.m; sourceTree = "<group>"; };
+		655976441CE8794F009A7F62 /* DLFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFriendTrendsViewController.h; sourceTree = "<group>"; };
+		655976451CE8794F009A7F62 /* DLFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFriendTrendsViewController.m; sourceTree = "<group>"; };
 		655976471CE87957009A7F62 /* DLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMeViewController.h; sourceTree = "<group>"; };
 		655976481CE87957009A7F62 /* DLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMeViewController.m; sourceTree = "<group>"; };
 		6559764A1CE87B21009A7F62 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -226,8 +226,8 @@
 		655976391CE87757009A7F62 /* c */ = {
 			isa = PBXGroup;
 			children = (
-				655976411CE8792B009A7F62 /* DLNewPostViewController.h */,
-				655976421CE8792B009A7F62 /* DLNewPostViewController.m */,
+				655976411CE8792B009A7F62 /* DLNewViewController.h */,
+				655976421CE8792B009A7F62 /* DLNewViewController.m */,
 			);
 			name = c;
 			sourceTree = "<group>";
@@ -235,8 +235,8 @@
 		6559763A1CE8775B009A7F62 /* c */ = {
 			isa = PBXGroup;
 			children = (
-				655976441CE8794F009A7F62 /* DLFollowingViewController.h */,
-				655976451CE8794F009A7F62 /* DLFollowingViewController.m */,
+				655976441CE8794F009A7F62 /* DLFriendTrendsViewController.h */,
+				655976451CE8794F009A7F62 /* DLFriendTrendsViewController.m */,
 			);
 			name = c;
 			sourceTree = "<group>";
@@ -457,12 +457,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655976431CE8792B009A7F62 /* DLNewPostViewController.m in Sources */,
+				655976431CE8792B009A7F62 /* DLNewViewController.m in Sources */,
 				6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */,
 				6519B0691CE61FFF00DD1CDD /* AppDelegate.m in Sources */,
 				6559763F1CE87847009A7F62 /* DLEssenceViewController.m in Sources */,
 				6519B0661CE61FFF00DD1CDD /* main.m in Sources */,
-				655976461CE8794F009A7F62 /* DLFollowingViewController.m in Sources */,
+				655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */,
 				655976491CE87957009A7F62 /* DLMeViewController.m in Sources */,
 				655976371CE8752A009A7F62 /* DLTabBarController.m in Sources */,
 			);
