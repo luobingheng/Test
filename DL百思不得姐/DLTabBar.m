@@ -27,8 +27,6 @@
         
         [self addSubview:publishButton];
         self.publishButton = publishButton;
-        
-
     }
     return self;
 }
@@ -51,14 +49,13 @@
     NSInteger i = 0;
     
     for (UIView *item in self.subviews) {
+//        UITabBarButton是私有属性,不能用[UITabBarButton class]来获取,可用NSClassFromString获取
         if ([item isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             itemX = itemW * ( i>1 ? i+1 : i );
             i++;
             item.frame = CGRectMake(itemX, 0, itemW, itemH);
         }
     }
-    
-
 }
 
 
