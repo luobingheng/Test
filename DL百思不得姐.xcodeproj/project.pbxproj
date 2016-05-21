@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3712566E1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m in Sources */ = {isa = PBXBuildFile; fileRef = 3712566D1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m */; };
+		371256731CF013F600A7EA2E /* DLRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 371256721CF013F600A7EA2E /* DLRecommendTag.m */; };
+		371256771CF0141400A7EA2E /* DLRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 371256751CF0141400A7EA2E /* DLRecommendTagCell.m */; };
+		371256781CF0141400A7EA2E /* DLRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371256761CF0141400A7EA2E /* DLRecommendTagCell.xib */; };
 		371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */; };
 		371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 371339121CEDA76A006F76B1 /* DLRecommendUser.m */; };
 		371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 371339151CEDAD00006F76B1 /* DLRecommendUserCell.m */; };
@@ -57,6 +60,11 @@
 		1BF0C75B7FBC5B050B3BB4E2 /* Pods-DL百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DL百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-DL百思不得姐/Pods-DL百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		3712566C1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension(重写frame的尺寸更改).h"; sourceTree = "<group>"; };
 		3712566D1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension(重写frame的尺寸更改).m"; sourceTree = "<group>"; };
+		371256711CF013F600A7EA2E /* DLRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendTag.h; sourceTree = "<group>"; };
+		371256721CF013F600A7EA2E /* DLRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendTag.m; sourceTree = "<group>"; };
+		371256741CF0141400A7EA2E /* DLRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendTagCell.h; sourceTree = "<group>"; };
+		371256751CF0141400A7EA2E /* DLRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendTagCell.m; sourceTree = "<group>"; };
+		371256761CF0141400A7EA2E /* DLRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendTagCell.xib; sourceTree = "<group>"; };
 		3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+DLLog.m"; sourceTree = "<group>"; };
 		371339111CEDA76A006F76B1 /* DLRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendUser.h; sourceTree = "<group>"; };
 		371339121CEDA76A006F76B1 /* DLRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendUser.m; sourceTree = "<group>"; };
@@ -136,6 +144,8 @@
 		3712566F1CF00BC100A7EA2E /* m */ = {
 			isa = PBXGroup;
 			children = (
+				371256711CF013F600A7EA2E /* DLRecommendTag.h */,
+				371256721CF013F600A7EA2E /* DLRecommendTag.m */,
 			);
 			name = m;
 			sourceTree = "<group>";
@@ -143,6 +153,9 @@
 		371256701CF00BC500A7EA2E /* v */ = {
 			isa = PBXGroup;
 			children = (
+				371256741CF0141400A7EA2E /* DLRecommendTagCell.h */,
+				371256751CF0141400A7EA2E /* DLRecommendTagCell.m */,
+				371256761CF0141400A7EA2E /* DLRecommendTagCell.xib */,
 			);
 			name = v;
 			sourceTree = "<group>";
@@ -482,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B58D5D1CED61E50006B757 /* DLRecommendCategoryCell.xib in Resources */,
+				371256781CF0141400A7EA2E /* DLRecommendTagCell.xib in Resources */,
 				371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */,
 				37ACC1981CEC5BFE0003B7F8 /* DLRecommendViewController.xib in Resources */,
 				6519B0741CE61FFF00DD1CDD /* LaunchScreen.storyboard in Resources */,
@@ -564,9 +578,11 @@
 				371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */,
 				371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */,
 				37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */,
+				371256731CF013F600A7EA2E /* DLRecommendTag.m in Sources */,
 				3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */,
 				3712566E1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m in Sources */,
 				371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */,
+				371256771CF0141400A7EA2E /* DLRecommendTagCell.m in Sources */,
 				6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */,
 				3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */,
 				37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */,
