@@ -8,12 +8,20 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
+#import <Foundation/Foundation.h>
+//#import "Foundation+Log.m"
 
 #define DLColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
 #define DLRandomColor [UIColor colorWithRed:(arc4random_uniform(256))/255.0 green:(arc4random_uniform(256))/255.0 blue:(arc4random_uniform(256))/255.0 alpha:1.0]
+
+#define DLBackgroundColor DLColor(220, 220, 220)
 
 #define screenW [UIScreen mainScreen].bounds.size.width
 #define screenH [UIScreen mainScreen].bounds.size.height
+
+extern NSString *const APIString;
+
+
 
 #endif /* PrefixHeader_pch */

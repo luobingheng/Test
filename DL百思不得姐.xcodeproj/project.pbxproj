@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60D73CC1721511235D272E7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB3551A1352620238E9C69E /* libPods.a */; };
+		3712566E1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m in Sources */ = {isa = PBXBuildFile; fileRef = 3712566D1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m */; };
+		371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */; };
+		371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 371339121CEDA76A006F76B1 /* DLRecommendUser.m */; };
+		371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 371339151CEDAD00006F76B1 /* DLRecommendUserCell.m */; };
+		371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371339161CEDAD00006F76B1 /* DLRecommendUserCell.xib */; };
+		3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D41CEC91260021BA5B /* DLGlobalConst.m */; };
+		3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */; };
+		37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */; };
+		37ACC18F1CEC52B90003B7F8 /* DLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC18E1CEC52B90003B7F8 /* DLNavigationController.m */; };
+		37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC1931CEC5B8E0003B7F8 /* DLRecommendViewController.m */; };
+		37ACC1961CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37ACC1951CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib */; };
+		37ACC1981CEC5BFE0003B7F8 /* DLRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37ACC1971CEC5BFE0003B7F8 /* DLRecommendViewController.xib */; };
+		37B58D5B1CED61D50006B757 /* DLRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B58D5A1CED61D50006B757 /* DLRecommendCategoryCell.m */; };
+		37B58D5D1CED61E50006B757 /* DLRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B58D5C1CED61E50006B757 /* DLRecommendCategoryCell.xib */; };
 		6519B0661CE61FFF00DD1CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519B0651CE61FFF00DD1CDD /* main.m */; };
 		6519B0691CE61FFF00DD1CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519B0681CE61FFF00DD1CDD /* AppDelegate.m */; };
 		6519B0711CE61FFF00DD1CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6519B0701CE61FFF00DD1CDD /* Assets.xcassets */; };
@@ -20,6 +33,7 @@
 		655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976451CE8794F009A7F62 /* DLFriendTrendsViewController.m */; };
 		655976491CE87957009A7F62 /* DLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655976481CE87957009A7F62 /* DLMeViewController.m */; };
 		6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559764E1CE89ADE009A7F62 /* DLTabBar.m */; };
+		CE091B97735EB3D17681A39A /* libPods-DL百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81541D41C8B7AE77A5849CDE /* libPods-DL百思不得姐.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +54,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C0FAB2664DBEC6DF5ECC18 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		4EB3551A1352620238E9C69E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF0C75B7FBC5B050B3BB4E2 /* Pods-DL百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DL百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-DL百思不得姐/Pods-DL百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		3712566C1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension(重写frame的尺寸更改).h"; sourceTree = "<group>"; };
+		3712566D1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension(重写frame的尺寸更改).m"; sourceTree = "<group>"; };
+		3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+DLLog.m"; sourceTree = "<group>"; };
+		371339111CEDA76A006F76B1 /* DLRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendUser.h; sourceTree = "<group>"; };
+		371339121CEDA76A006F76B1 /* DLRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendUser.m; sourceTree = "<group>"; };
+		371339141CEDAD00006F76B1 /* DLRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendUserCell.h; sourceTree = "<group>"; };
+		371339151CEDAD00006F76B1 /* DLRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendUserCell.m; sourceTree = "<group>"; };
+		371339161CEDAD00006F76B1 /* DLRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendUserCell.xib; sourceTree = "<group>"; };
+		3733B6D41CEC91260021BA5B /* DLGlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGlobalConst.m; sourceTree = "<group>"; };
+		3733B6D61CEC95640021BA5B /* DLRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendCategory.h; sourceTree = "<group>"; };
+		3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategory.m; sourceTree = "<group>"; };
+		37ACC1881CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DLCateogy.h"; sourceTree = "<group>"; };
+		37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DLCateogy.m"; sourceTree = "<group>"; };
+		37ACC18D1CEC52B90003B7F8 /* DLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNavigationController.h; sourceTree = "<group>"; };
+		37ACC18E1CEC52B90003B7F8 /* DLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNavigationController.m; sourceTree = "<group>"; };
+		37ACC1921CEC5B8E0003B7F8 /* DLRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendViewController.h; sourceTree = "<group>"; };
+		37ACC1931CEC5B8E0003B7F8 /* DLRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendViewController.m; sourceTree = "<group>"; };
+		37ACC1951CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		37ACC1971CEC5BFE0003B7F8 /* DLRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendViewController.xib; sourceTree = "<group>"; };
+		37B58D591CED61D50006B757 /* DLRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendCategoryCell.h; sourceTree = "<group>"; };
+		37B58D5A1CED61D50006B757 /* DLRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategoryCell.m; sourceTree = "<group>"; };
+		37B58D5C1CED61E50006B757 /* DLRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		60A790C348C1D81F50F7967E /* Pods-DL百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DL百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DL百思不得姐/Pods-DL百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		6519B0611CE61FFF00DD1CDD /* DL百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DL百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6519B0651CE61FFF00DD1CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6519B0671CE61FFF00DD1CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,7 +104,7 @@
 		6559764A1CE87B21009A7F62 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6559764D1CE89ADE009A7F62 /* DLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTabBar.h; sourceTree = "<group>"; };
 		6559764E1CE89ADE009A7F62 /* DLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTabBar.m; sourceTree = "<group>"; };
-		B7BBEF3389498FAC8923832E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		81541D41C8B7AE77A5849CDE /* libPods-DL百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DL百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D73CC1721511235D272E7E /* libPods.a in Frameworks */,
+				CE091B97735EB3D17681A39A /* libPods-DL百思不得姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +133,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3712566F1CF00BC100A7EA2E /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = m;
+			sourceTree = "<group>";
+		};
+		371256701CF00BC500A7EA2E /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		37ACC1871CEC0B000003B7F8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3712566C1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).h */,
+				3712566D1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m */,
+				37ACC1881CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.h */,
+				37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */,
+				3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		37ACC1901CEC5B510003B7F8 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				3733B6D61CEC95640021BA5B /* DLRecommendCategory.h */,
+				3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */,
+				371339111CEDA76A006F76B1 /* DLRecommendUser.h */,
+				371339121CEDA76A006F76B1 /* DLRecommendUser.m */,
+			);
+			name = m;
+			sourceTree = "<group>";
+		};
+		37ACC1911CEC5B560003B7F8 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				37B58D591CED61D50006B757 /* DLRecommendCategoryCell.h */,
+				37B58D5A1CED61D50006B757 /* DLRecommendCategoryCell.m */,
+				37B58D5C1CED61E50006B757 /* DLRecommendCategoryCell.xib */,
+				371339141CEDAD00006F76B1 /* DLRecommendUserCell.h */,
+				371339151CEDAD00006F76B1 /* DLRecommendUserCell.m */,
+				371339161CEDAD00006F76B1 /* DLRecommendUserCell.xib */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		383337B7833FFA0D1BA15FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60A790C348C1D81F50F7967E /* Pods-DL百思不得姐.debug.xcconfig */,
+				1BF0C75B7FBC5B050B3BB4E2 /* Pods-DL百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6519B0581CE61FFF00DD1CDD = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +199,8 @@
 				6519B07D1CE6200000DD1CDD /* DL百思不得姐Tests */,
 				6519B0881CE6200000DD1CDD /* DL百思不得姐UITests */,
 				6519B0621CE61FFF00DD1CDD /* Products */,
-				86F18C21653B17197E0973CE /* Pods */,
-				F79F6F4DD14763BE355A7D55 /* Frameworks */,
+				383337B7833FFA0D1BA15FEE /* Pods */,
+				970F97FBF30033542A98DBE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,9 +219,13 @@
 			children = (
 				655976331CE86DE8009A7F62 /* Essence */,
 				655976321CE86DE5009A7F62 /* NewPost */,
-				655976311CE86DE3009A7F62 /* Following */,
+				655976311CE86DE3009A7F62 /* FriendTrends */,
 				655976301CE86DE0009A7F62 /* Me */,
 				6559762F1CE86DDB009A7F62 /* Others */,
+				6559764A1CE87B21009A7F62 /* PrefixHeader.pch */,
+				3733B6D41CEC91260021BA5B /* DLGlobalConst.m */,
+				6519B0671CE61FFF00DD1CDD /* AppDelegate.h */,
+				6519B0681CE61FFF00DD1CDD /* AppDelegate.m */,
 				6519B0701CE61FFF00DD1CDD /* Assets.xcassets */,
 				6519B0721CE61FFF00DD1CDD /* LaunchScreen.storyboard */,
 				6519B0751CE61FFF00DD1CDD /* Info.plist */,
@@ -164,11 +263,9 @@
 		6559762F1CE86DDB009A7F62 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				37ACC1871CEC0B000003B7F8 /* Category */,
 				6559764C1CE89AC8009A7F62 /* v */,
 				655976341CE874BB009A7F62 /* c */,
-				6519B0671CE61FFF00DD1CDD /* AppDelegate.h */,
-				6519B0681CE61FFF00DD1CDD /* AppDelegate.m */,
-				6559764A1CE87B21009A7F62 /* PrefixHeader.pch */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -181,12 +278,14 @@
 			name = Me;
 			sourceTree = "<group>";
 		};
-		655976311CE86DE3009A7F62 /* Following */ = {
+		655976311CE86DE3009A7F62 /* FriendTrends */ = {
 			isa = PBXGroup;
 			children = (
 				6559763A1CE8775B009A7F62 /* c */,
+				37ACC1901CEC5B510003B7F8 /* m */,
+				37ACC1911CEC5B560003B7F8 /* v */,
 			);
-			name = Following;
+			name = FriendTrends;
 			sourceTree = "<group>";
 		};
 		655976321CE86DE5009A7F62 /* NewPost */ = {
@@ -201,6 +300,8 @@
 			isa = PBXGroup;
 			children = (
 				655976381CE87750009A7F62 /* c */,
+				371256701CF00BC500A7EA2E /* v */,
+				3712566F1CF00BC100A7EA2E /* m */,
 			);
 			name = Essence;
 			sourceTree = "<group>";
@@ -210,6 +311,8 @@
 			children = (
 				655976351CE8752A009A7F62 /* DLTabBarController.h */,
 				655976361CE8752A009A7F62 /* DLTabBarController.m */,
+				37ACC18D1CEC52B90003B7F8 /* DLNavigationController.h */,
+				37ACC18E1CEC52B90003B7F8 /* DLNavigationController.m */,
 			);
 			name = c;
 			sourceTree = "<group>";
@@ -237,6 +340,10 @@
 			children = (
 				655976441CE8794F009A7F62 /* DLFriendTrendsViewController.h */,
 				655976451CE8794F009A7F62 /* DLFriendTrendsViewController.m */,
+				37ACC1951CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib */,
+				37ACC1921CEC5B8E0003B7F8 /* DLRecommendViewController.h */,
+				37ACC1931CEC5B8E0003B7F8 /* DLRecommendViewController.m */,
+				37ACC1971CEC5BFE0003B7F8 /* DLRecommendViewController.xib */,
 			);
 			name = c;
 			sourceTree = "<group>";
@@ -259,19 +366,10 @@
 			name = v;
 			sourceTree = "<group>";
 		};
-		86F18C21653B17197E0973CE /* Pods */ = {
+		970F97FBF30033542A98DBE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09C0FAB2664DBEC6DF5ECC18 /* Pods.debug.xcconfig */,
-				B7BBEF3389498FAC8923832E /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F79F6F4DD14763BE355A7D55 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4EB3551A1352620238E9C69E /* libPods.a */,
+				81541D41C8B7AE77A5849CDE /* libPods-DL百思不得姐.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,12 +381,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6519B08E1CE6200000DD1CDD /* Build configuration list for PBXNativeTarget "DL百思不得姐" */;
 			buildPhases = (
-				77BF043DFB485DD5403076C2 /* Check Pods Manifest.lock */,
+				1356042FB10A87155BA9E578 /* 📦 Check Pods Manifest.lock */,
 				6519B05D1CE61FFF00DD1CDD /* Sources */,
 				6519B05E1CE61FFF00DD1CDD /* Frameworks */,
 				6519B05F1CE61FFF00DD1CDD /* Resources */,
-				B93AE28EED4DFA2D65A0EB58 /* Embed Pods Frameworks */,
-				B55BCDEE69D45C8E8D7E37B3 /* Copy Pods Resources */,
+				B72CE4292BB2E5C912D4A362 /* 📦 Embed Pods Frameworks */,
+				ADC1FBAFD72D91D4C135AB43 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -383,7 +481,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B58D5D1CED61E50006B757 /* DLRecommendCategoryCell.xib in Resources */,
+				371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */,
+				37ACC1981CEC5BFE0003B7F8 /* DLRecommendViewController.xib in Resources */,
 				6519B0741CE61FFF00DD1CDD /* LaunchScreen.storyboard in Resources */,
+				37ACC1961CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib in Resources */,
 				6519B0711CE61FFF00DD1CDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,14 +507,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		77BF043DFB485DD5403076C2 /* Check Pods Manifest.lock */ = {
+		1356042FB10A87155BA9E578 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,34 +522,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B55BCDEE69D45C8E8D7E37B3 /* Copy Pods Resources */ = {
+		ADC1FBAFD72D91D4C135AB43 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DL百思不得姐/Pods-DL百思不得姐-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B93AE28EED4DFA2D65A0EB58 /* Embed Pods Frameworks */ = {
+		B72CE4292BB2E5C912D4A362 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DL百思不得姐/Pods-DL百思不得姐-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -457,14 +559,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B58D5B1CED61D50006B757 /* DLRecommendCategoryCell.m in Sources */,
 				655976431CE8792B009A7F62 /* DLNewViewController.m in Sources */,
+				371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */,
+				371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */,
+				37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */,
+				3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */,
+				3712566E1CF00A4400A7EA2E /* UIView+XMGExtension(重写frame的尺寸更改).m in Sources */,
+				371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */,
 				6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */,
+				3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */,
+				37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */,
 				6519B0691CE61FFF00DD1CDD /* AppDelegate.m in Sources */,
 				6559763F1CE87847009A7F62 /* DLEssenceViewController.m in Sources */,
 				6519B0661CE61FFF00DD1CDD /* main.m in Sources */,
 				655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */,
 				655976491CE87957009A7F62 /* DLMeViewController.m in Sources */,
 				655976371CE8752A009A7F62 /* DLTabBarController.m in Sources */,
+				37ACC18F1CEC52B90003B7F8 /* DLNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +707,7 @@
 		};
 		6519B08F1CE6200000DD1CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09C0FAB2664DBEC6DF5ECC18 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 60A790C348C1D81F50F7967E /* Pods-DL百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -610,7 +722,7 @@
 		};
 		6519B0901CE6200000DD1CDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BBEF3389498FAC8923832E /* Pods.release.xcconfig */;
+			baseConfigurationReference = 1BF0C75B7FBC5B050B3BB4E2 /* Pods-DL百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

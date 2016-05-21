@@ -12,6 +12,7 @@
 #import "DLFriendTrendsViewController.h"
 #import "DLMeViewController.h"
 #import "DLTabBar.h"
+#import "DLNavigationController.h"
 
 
 @interface DLTabBarController ()
@@ -65,20 +66,15 @@
 
 - (void)setChildVC:(UIViewController *)vc withTitle:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName{
     
-    vc.view.backgroundColor = DLRandomColor;
+    vc.view.backgroundColor = DLColor(200, 200, 200);
     vc.title = title;//设置vc的标题会自动设置tabBarItem的标题
     
     //要设置tabBarItem的图片,要在vc的tabBarItem属性设置
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
     vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];//设置RenderingMode可覆盖系统自动设置的蓝色,也可以在图片的属性检查器里的选项设置
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    //设置导航栏的背景图片
-    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
-    
+    DLNavigationController *nav = [[DLNavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
-    
-    
 }
 
 
