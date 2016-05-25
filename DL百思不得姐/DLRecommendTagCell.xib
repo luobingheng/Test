@@ -1,18 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DLRecommendTagCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DLRecommendTagCell" rowHeight="94" id="0xL-fV-NNg" userLabel="DLRecommendTagCell" customClass="DLRecommendTagCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0xL-fV-NNg" id="caQ-qq-dME">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QpE-pb-ULN">
+                        <rect key="frame" x="10" y="10" width="73" height="73"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="QpE-pb-ULN" secondAttribute="height" multiplier="1:1" id="DWI-Fe-FVw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgv-8o-agP">
+                        <rect key="frame" x="91" y="10" width="178" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="dlT-Lb-uGA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bry-oA-v9y">
+                        <rect key="frame" x="91" y="62" width="167" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ynj-VR-Zyn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCn-ZG-nm3">
+                        <rect key="frame" x="261" y="34" width="51" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="T9z-0b-QbI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="+ 关注" backgroundImage="FollowBtnBg">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="FollowBtnClickBg">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Bry-oA-v9y" secondAttribute="bottom" constant="10" id="0PJ-Pn-Snz"/>
+                    <constraint firstItem="xgv-8o-agP" firstAttribute="top" secondItem="caQ-qq-dME" secondAttribute="top" constant="10" id="85m-hy-trv"/>
+                    <constraint firstItem="mCn-ZG-nm3" firstAttribute="centerX" secondItem="caQ-qq-dME" secondAttribute="centerX" id="HHv-SA-WyG"/>
+                    <constraint firstItem="mCn-ZG-nm3" firstAttribute="centerY" secondItem="caQ-qq-dME" secondAttribute="centerY" id="Oww-bt-vcp"/>
+                    <constraint firstAttribute="trailing" secondItem="xgv-8o-agP" secondAttribute="trailing" constant="51" id="XTl-dS-vJl"/>
+                    <constraint firstAttribute="bottom" secondItem="QpE-pb-ULN" secondAttribute="bottom" constant="10" id="gxs-7K-mwi"/>
+                    <constraint firstItem="QpE-pb-ULN" firstAttribute="leading" secondItem="caQ-qq-dME" secondAttribute="leading" constant="10" id="jXz-h7-sXB"/>
+                    <constraint firstAttribute="trailing" secondItem="mCn-ZG-nm3" secondAttribute="trailing" constant="8" id="miR-ux-TZ1"/>
+                    <constraint firstItem="xgv-8o-agP" firstAttribute="leading" secondItem="QpE-pb-ULN" secondAttribute="trailing" constant="8" id="uwp-aS-oK3"/>
+                    <constraint firstItem="QpE-pb-ULN" firstAttribute="top" secondItem="caQ-qq-dME" secondAttribute="top" constant="10" id="y3j-1u-g0Q"/>
+                    <constraint firstItem="Bry-oA-v9y" firstAttribute="leading" secondItem="QpE-pb-ULN" secondAttribute="trailing" constant="8" id="yCb-Ki-eov"/>
+                    <constraint firstAttribute="trailing" secondItem="Bry-oA-v9y" secondAttribute="trailing" constant="62" id="zXy-qW-npy"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="HHv-SA-WyG"/>
+                    </mask>
+                </variation>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="headerImgView" destination="QpE-pb-ULN" id="8o8-Lg-Jih"/>
+                <outlet property="subNumerLabel" destination="Bry-oA-v9y" id="bTF-DF-2CW"/>
+                <outlet property="themeNameLabel" destination="xgv-8o-agP" id="tUl-pT-GXq"/>
+            </connections>
+            <point key="canvasLocation" x="328" y="322"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="FollowBtnBg" width="51" height="25"/>
+        <image name="FollowBtnClickBg" width="51" height="25"/>
+    </resources>
 </document>

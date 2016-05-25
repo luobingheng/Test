@@ -9,7 +9,9 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import <Foundation/Foundation.h>
-//#import "Foundation+Log.m"
+#import "UIView+DLExtension(重写frame的尺寸更改).h"
+
+#pragma mark - color
 
 #define DLColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
@@ -17,11 +19,17 @@
 
 #define DLBackgroundColor DLColor(220, 220, 220)
 
+#pragma mark - size
+
 #define screenW [UIScreen mainScreen].bounds.size.width
 #define screenH [UIScreen mainScreen].bounds.size.height
 
+#pragma mark - string
+
 extern NSString *const APIString;
 
+#pragma mark - other
 
+#define DLLogFunc NSLog(@"%s", __func__)
 
 #endif /* PrefixHeader_pch */

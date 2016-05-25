@@ -9,7 +9,9 @@
 #import "DLFriendTrendsViewController.h"
 #import "UIBarButtonItem+DLCateogy.h"
 #import "DLRecommendViewController.h"
+#import "DLLoginController.h"
 
+//关注
 @interface DLFriendTrendsViewController ()
 
 @end
@@ -21,12 +23,20 @@
     [super viewDidLoad];
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"friendsRecommentIcon" highlightedImageName:@"friendsRecommentIcon-click" target:self selector:@selector(showRecommendUser)];
-    
+
 }
 
 - (void)showRecommendUser{
     DLRecommendViewController *vc = [DLRecommendViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (IBAction)showLoginController:(id)sender {
+
+    DLLoginController *loginVC = [DLLoginController new];
+    
+    [self presentViewController:loginVC animated:YES completion:nil];
+}
+
 
 @end

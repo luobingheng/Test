@@ -7,10 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class DLRecommendUser;
 
 @interface DLRecommendCategory : NSObject
-
 
 @property (nonatomic, assign) NSInteger count;
 
@@ -19,7 +18,7 @@
 @property (nonatomic, copy) NSString *name;
 
 
-@property (nonatomic, strong) NSMutableArray *users;
+@property (nonatomic, strong) NSMutableArray<DLRecommendUser *> *users;
 
 @property (nonatomic, assign) NSInteger total;
 

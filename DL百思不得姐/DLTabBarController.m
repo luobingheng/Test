@@ -33,6 +33,7 @@
     
     //设置只读属性可以用kvc
     [self setValue:[DLTabBar new] forKey:@"tabBar"];
+
 }
 
 - (void)setTabBarStyle{

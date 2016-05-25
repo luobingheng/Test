@@ -31,12 +31,10 @@
     [super setHighlighted:highlighted animated:animated];
 
     self.contentView.layer.transform = CATransform3DMakeScale(0.95, 0.95, 1);
-//    self.textLabel.layer.transform = CATransform3DMakeScale(1, 0.1, 1);
     
     [UIView animateWithDuration:0.1 animations:^{
         
         self.contentView.layer.transform = CATransform3DMakeScale(1, 1, 1);
-        self.textLabel.layer.transform = CATransform3DMakeScale(1, 1, 1);
     }];
 
 }
@@ -50,7 +48,14 @@
     
     self.screenNameLabel.text = user.screen_name;
     
-    self.fansCountLabel.text = user.fans_count;
+    NSInteger fansCount = [user.fans_count integerValue];
+    if (fansCount < 10000) {
+        
+        self.fansCountLabel.text = [NSString stringWithFormat:@"%ld人关注", fansCount];
+    }else{
+        NSString *s = [NSString stringWithFormat:@"%.1f万人关注", fansCount/10000.0];
+        self.fansCountLabel.text = s;
+    }
 }
 
 @end

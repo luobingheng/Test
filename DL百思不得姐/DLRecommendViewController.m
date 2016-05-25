@@ -21,14 +21,14 @@
 static NSString *const categoryCellKey = @"DLRecommendCategoryCell";
 static NSString *const userCellKey = @"DLRecommendUserCell";
 
-
+//推荐分类
 @interface DLRecommendViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *categoryTableView;
 
 @property (weak, nonatomic) IBOutlet UITableView *userTableView;
 
-@property (nonatomic, copy) NSArray *categories;
+@property (nonatomic, copy) NSArray<DLRecommendCategory *> *categories;
 
 @property (nonatomic, strong) AFHTTPSessionManager *manager;
 
@@ -49,8 +49,6 @@ static NSString *const userCellKey = @"DLRecommendUserCell";
 
 @implementation DLRecommendViewController
 
-static int i = 0;
-
 - (void)viewDidLoad{
     [super viewDidLoad];
     
@@ -66,7 +64,7 @@ static int i = 0;
     self.view.backgroundColor = DLBackgroundColor;
     self.categoryTableView.backgroundColor = [UIColor clearColor];
     self.userTableView.backgroundColor = [UIColor clearColor];
-    self.title = @"推荐关注";
+    self.title = @"推荐分类";
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.categoryTableView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
@@ -89,7 +87,7 @@ static int i = 0;
     NSMutableDictionary *par = [NSMutableDictionary dictionary];
     par[@"a"] = @"category";
     par[@"c"] = @"subscribe";
-    
+
     [self.manager GET:APIString parameters:par progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         [SVProgressHUD dismiss];
@@ -148,7 +146,7 @@ static int i = 0;
                 [self checkFooterState];//刷新下拉控件的状态
                 
                 [self.userTableView.mj_header endRefreshing];//加载成功后结束header加载状态
-                NSLog(@"call back %d",i++);
+
             });
 
             

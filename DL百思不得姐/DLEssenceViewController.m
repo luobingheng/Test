@@ -8,7 +8,9 @@
 
 #import "DLEssenceViewController.h"
 #import "UIBarButtonItem+DLCateogy.h"
+#import "DLRecommendTagsViewController.h"
 
+//精华
 @interface DLEssenceViewController ()
 
 @end
@@ -18,12 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"MainTagSubIcon" highlightedImageName:@"MainTagSubIconClick" target:self selector:@selector(showTags)];
-    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"MainTagSubIcon" highlightedImageName:@"MainTagSubIconClick" target:self selector:@selector(showRecommendTags)];
+
 }
 
-- (void)showTags{
-    NSLog(@"%s", __func__);
+- (void)showRecommendTags{
+    DLRecommendTagsViewController *vc = [DLRecommendTagsViewController new];
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

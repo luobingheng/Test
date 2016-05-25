@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class DLRecommendTag;
+
 @interface DLRecommendTagCell : UITableViewCell
+
+@property (nonatomic, strong) DLRecommendTag *recommendTag;
 
 @end

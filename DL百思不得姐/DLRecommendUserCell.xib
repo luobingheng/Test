@@ -26,7 +26,7 @@
                             <constraint firstAttribute="height" constant="26" id="gku-0P-jIF"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wha-ja-TD5">
@@ -35,15 +35,15 @@
                             <constraint firstAttribute="height" constant="21" id="i8Q-0B-3AV"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOE-V5-jE9">
+                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOE-V5-jE9">
                         <rect key="frame" x="261" y="34" width="51" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="51" id="ZPe-eh-7Cw"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <state key="normal" title="+ 关注" backgroundImage="FollowBtnBg">
                             <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -65,7 +65,6 @@
                     <constraint firstItem="W5E-4X-oRt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ldU-nd-e3K"/>
                     <constraint firstAttribute="bottom" secondItem="wha-ja-TD5" secondAttribute="bottom" constant="10" id="tS6-Rr-rxC"/>
                     <constraint firstAttribute="bottom" secondItem="WOE-V5-jE9" secondAttribute="bottom" constant="34" id="xNU-2w-uKj"/>
-                    <constraint firstItem="WOE-V5-jE9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="zlJ-tD-lI2"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
