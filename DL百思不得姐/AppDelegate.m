@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DLTabBarController.h"
+#import "DLGuidanceView.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,7 @@
     
     self.window.rootViewController = tbc;
     
+    [DLGuidanceView show];
     
     return YES;
 }

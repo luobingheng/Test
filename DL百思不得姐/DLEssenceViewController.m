@@ -22,6 +22,11 @@
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"MainTagSubIcon" highlightedImageName:@"MainTagSubIconClick" target:self selector:@selector(showRecommendTags)];
 
+    [self setUpTitles];
+}
+
+- (void)setUpTitles{
+    
 }
 
 - (void)showRecommendTags{

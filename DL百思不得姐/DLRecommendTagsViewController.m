@@ -66,7 +66,7 @@ static NSString *const tagsCellKey = @"DLRecommendTagCell";
             self.tags = [DLRecommendTag mj_objectArrayWithKeyValuesArray:responseObject];
             
             [self.tagsTableView reloadData];
-            NSLog(@"%@",responseObject);
+
             [SVProgressHUD dismiss];
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             

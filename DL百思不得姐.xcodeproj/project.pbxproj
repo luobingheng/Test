@@ -20,6 +20,8 @@
 		3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D41CEC91260021BA5B /* DLGlobalConst.m */; };
 		3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */; };
 		376FA8681CF5420200011595 /* DLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FA8671CF5420200011595 /* DLTextField.m */; };
+		377C7DCE1CF69285006F5405 /* DLGuidanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C7DCD1CF69285006F5405 /* DLGuidanceView.m */; };
+		377C7DD01CF6929A006F5405 /* DLGuidanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */; };
 		37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */; };
 		37ACC18F1CEC52B90003B7F8 /* DLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC18E1CEC52B90003B7F8 /* DLNavigationController.m */; };
 		37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC1931CEC5B8E0003B7F8 /* DLRecommendViewController.m */; };
@@ -85,6 +87,9 @@
 		3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategory.m; sourceTree = "<group>"; };
 		376FA8661CF5420200011595 /* DLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextField.h; sourceTree = "<group>"; };
 		376FA8671CF5420200011595 /* DLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextField.m; sourceTree = "<group>"; };
+		377C7DCC1CF69285006F5405 /* DLGuidanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGuidanceView.h; sourceTree = "<group>"; };
+		377C7DCD1CF69285006F5405 /* DLGuidanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGuidanceView.m; sourceTree = "<group>"; };
+		377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLGuidanceView.xib; sourceTree = "<group>"; };
 		37ACC1881CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DLCateogy.h"; sourceTree = "<group>"; };
 		37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DLCateogy.m"; sourceTree = "<group>"; };
 		37ACC18D1CEC52B90003B7F8 /* DLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNavigationController.h; sourceTree = "<group>"; };
@@ -281,10 +286,10 @@
 				655976311CE86DE3009A7F62 /* FriendTrends */,
 				655976301CE86DE0009A7F62 /* Me */,
 				6559762F1CE86DDB009A7F62 /* Others */,
-				6559764A1CE87B21009A7F62 /* PrefixHeader.pch */,
-				3733B6D41CEC91260021BA5B /* DLGlobalConst.m */,
 				6519B0671CE61FFF00DD1CDD /* AppDelegate.h */,
 				6519B0681CE61FFF00DD1CDD /* AppDelegate.m */,
+				6559764A1CE87B21009A7F62 /* PrefixHeader.pch */,
+				3733B6D41CEC91260021BA5B /* DLGlobalConst.m */,
 				6519B0701CE61FFF00DD1CDD /* Assets.xcassets */,
 				6519B0721CE61FFF00DD1CDD /* LaunchScreen.storyboard */,
 				6519B0751CE61FFF00DD1CDD /* Info.plist */,
@@ -425,6 +430,9 @@
 			children = (
 				6559764D1CE89ADE009A7F62 /* DLTabBar.h */,
 				6559764E1CE89ADE009A7F62 /* DLTabBar.m */,
+				377C7DCC1CF69285006F5405 /* DLGuidanceView.h */,
+				377C7DCD1CF69285006F5405 /* DLGuidanceView.m */,
+				377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */,
 			);
 			name = v;
 			sourceTree = "<group>";
@@ -550,6 +558,7 @@
 				37ACC1981CEC5BFE0003B7F8 /* DLRecommendViewController.xib in Resources */,
 				37DCC76A1CF45A3B00E6B52D /* DLLoginController.xib in Resources */,
 				6519B0741CE61FFF00DD1CDD /* LaunchScreen.storyboard in Resources */,
+				377C7DD01CF6929A006F5405 /* DLGuidanceView.xib in Resources */,
 				37ACC1961CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib in Resources */,
 				3712567D1CF046DF00A7EA2E /* DLRecommendTagsViewController.xib in Resources */,
 				6519B0711CE61FFF00DD1CDD /* Assets.xcassets in Resources */,
@@ -648,6 +657,7 @@
 				655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */,
 				655976491CE87957009A7F62 /* DLMeViewController.m in Sources */,
 				655976371CE8752A009A7F62 /* DLTabBarController.m in Sources */,
+				377C7DCE1CF69285006F5405 /* DLGuidanceView.m in Sources */,
 				37ACC18F1CEC52B90003B7F8 /* DLNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
