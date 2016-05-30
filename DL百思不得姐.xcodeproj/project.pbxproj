@@ -19,6 +19,11 @@
 		371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371339161CEDAD00006F76B1 /* DLRecommendUserCell.xib */; };
 		3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D41CEC91260021BA5B /* DLGlobalConst.m */; };
 		3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */; };
+		375956811CF7EAB2003EF4C2 /* DLAllTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956801CF7EAB2003EF4C2 /* DLAllTableController.m */; };
+		3759569A1CF8239C003EF4C2 /* DLAudioTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956931CF8239C003EF4C2 /* DLAudioTableController.m */; };
+		3759569B1CF8239C003EF4C2 /* DLPictureTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956951CF8239C003EF4C2 /* DLPictureTableController.m */; };
+		3759569C1CF8239C003EF4C2 /* DLTextTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956971CF8239C003EF4C2 /* DLTextTableController.m */; };
+		3759569D1CF8239C003EF4C2 /* DLVideoTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956991CF8239C003EF4C2 /* DLVideoTableController.m */; };
 		376FA8681CF5420200011595 /* DLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FA8671CF5420200011595 /* DLTextField.m */; };
 		377C7DCE1CF69285006F5405 /* DLGuidanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C7DCD1CF69285006F5405 /* DLGuidanceView.m */; };
 		377C7DD01CF6929A006F5405 /* DLGuidanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */; };
@@ -85,6 +90,16 @@
 		3733B6D41CEC91260021BA5B /* DLGlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGlobalConst.m; sourceTree = "<group>"; };
 		3733B6D61CEC95640021BA5B /* DLRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendCategory.h; sourceTree = "<group>"; };
 		3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategory.m; sourceTree = "<group>"; };
+		3759567F1CF7EAB2003EF4C2 /* DLAllTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAllTableController.h; sourceTree = "<group>"; };
+		375956801CF7EAB2003EF4C2 /* DLAllTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAllTableController.m; sourceTree = "<group>"; };
+		375956921CF8239C003EF4C2 /* DLAudioTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAudioTableController.h; sourceTree = "<group>"; };
+		375956931CF8239C003EF4C2 /* DLAudioTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAudioTableController.m; sourceTree = "<group>"; };
+		375956941CF8239C003EF4C2 /* DLPictureTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPictureTableController.h; sourceTree = "<group>"; };
+		375956951CF8239C003EF4C2 /* DLPictureTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPictureTableController.m; sourceTree = "<group>"; };
+		375956961CF8239C003EF4C2 /* DLTextTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextTableController.h; sourceTree = "<group>"; };
+		375956971CF8239C003EF4C2 /* DLTextTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextTableController.m; sourceTree = "<group>"; };
+		375956981CF8239C003EF4C2 /* DLVideoTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLVideoTableController.h; sourceTree = "<group>"; };
+		375956991CF8239C003EF4C2 /* DLVideoTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLVideoTableController.m; sourceTree = "<group>"; };
 		376FA8661CF5420200011595 /* DLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextField.h; sourceTree = "<group>"; };
 		376FA8671CF5420200011595 /* DLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextField.m; sourceTree = "<group>"; };
 		377C7DCC1CF69285006F5405 /* DLGuidanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGuidanceView.h; sourceTree = "<group>"; };
@@ -165,8 +180,6 @@
 		3712566F1CF00BC100A7EA2E /* m */ = {
 			isa = PBXGroup;
 			children = (
-				371256711CF013F600A7EA2E /* DLRecommendTag.h */,
-				371256721CF013F600A7EA2E /* DLRecommendTag.m */,
 			);
 			name = m;
 			sourceTree = "<group>";
@@ -174,11 +187,47 @@
 		371256701CF00BC500A7EA2E /* v */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		375956821CF7EC48003EF4C2 /* RecommendTags */ = {
+			isa = PBXGroup;
+			children = (
+				375956831CF7EC53003EF4C2 /* c */,
+				375956841CF7EC5E003EF4C2 /* v */,
+				375956851CF7EC6E003EF4C2 /* m */,
+			);
+			name = RecommendTags;
+			sourceTree = "<group>";
+		};
+		375956831CF7EC53003EF4C2 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				371256791CF046DF00A7EA2E /* DLRecommendTagsViewController.h */,
+				3712567A1CF046DF00A7EA2E /* DLRecommendTagsViewController.m */,
+				3712567B1CF046DF00A7EA2E /* DLRecommendTagsViewController.xib */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		375956841CF7EC5E003EF4C2 /* v */ = {
+			isa = PBXGroup;
+			children = (
 				371256741CF0141400A7EA2E /* DLRecommendTagCell.h */,
 				371256751CF0141400A7EA2E /* DLRecommendTagCell.m */,
 				371256761CF0141400A7EA2E /* DLRecommendTagCell.xib */,
 			);
 			name = v;
+			sourceTree = "<group>";
+		};
+		375956851CF7EC6E003EF4C2 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				371256711CF013F600A7EA2E /* DLRecommendTag.h */,
+				371256721CF013F600A7EA2E /* DLRecommendTag.m */,
+			);
+			name = m;
 			sourceTree = "<group>";
 		};
 		37ACC1871CEC0B000003B7F8 /* Category */ = {
@@ -364,6 +413,7 @@
 		655976331CE86DE8009A7F62 /* Essence */ = {
 			isa = PBXGroup;
 			children = (
+				375956821CF7EC48003EF4C2 /* RecommendTags */,
 				655976381CE87750009A7F62 /* c */,
 				371256701CF00BC500A7EA2E /* v */,
 				3712566F1CF00BC100A7EA2E /* m */,
@@ -387,9 +437,16 @@
 			children = (
 				6559763C1CE87847009A7F62 /* DLEssenceViewController.h */,
 				6559763D1CE87847009A7F62 /* DLEssenceViewController.m */,
-				371256791CF046DF00A7EA2E /* DLRecommendTagsViewController.h */,
-				3712567A1CF046DF00A7EA2E /* DLRecommendTagsViewController.m */,
-				3712567B1CF046DF00A7EA2E /* DLRecommendTagsViewController.xib */,
+				3759567F1CF7EAB2003EF4C2 /* DLAllTableController.h */,
+				375956801CF7EAB2003EF4C2 /* DLAllTableController.m */,
+				375956981CF8239C003EF4C2 /* DLVideoTableController.h */,
+				375956991CF8239C003EF4C2 /* DLVideoTableController.m */,
+				375956921CF8239C003EF4C2 /* DLAudioTableController.h */,
+				375956931CF8239C003EF4C2 /* DLAudioTableController.m */,
+				375956941CF8239C003EF4C2 /* DLPictureTableController.h */,
+				375956951CF8239C003EF4C2 /* DLPictureTableController.m */,
+				375956961CF8239C003EF4C2 /* DLTextTableController.h */,
+				375956971CF8239C003EF4C2 /* DLTextTableController.m */,
 			);
 			name = c;
 			sourceTree = "<group>";
@@ -638,17 +695,22 @@
 				376FA8681CF5420200011595 /* DLTextField.m in Sources */,
 				655976431CE8792B009A7F62 /* DLNewViewController.m in Sources */,
 				37DCC76D1CF4758800E6B52D /* DLLoginButton.m in Sources */,
+				375956811CF7EAB2003EF4C2 /* DLAllTableController.m in Sources */,
+				3759569B1CF8239C003EF4C2 /* DLPictureTableController.m in Sources */,
 				371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */,
 				371256831CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).m in Sources */,
+				3759569C1CF8239C003EF4C2 /* DLTextTableController.m in Sources */,
 				371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */,
 				37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */,
 				371256731CF013F600A7EA2E /* DLRecommendTag.m in Sources */,
 				3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */,
 				371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */,
+				3759569D1CF8239C003EF4C2 /* DLVideoTableController.m in Sources */,
 				371256771CF0141400A7EA2E /* DLRecommendTagCell.m in Sources */,
 				6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */,
 				3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */,
 				37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */,
+				3759569A1CF8239C003EF4C2 /* DLAudioTableController.m in Sources */,
 				37DCC7681CF45A1700E6B52D /* DLLoginController.m in Sources */,
 				3712567C1CF046DF00A7EA2E /* DLRecommendTagsViewController.m in Sources */,
 				6519B0691CE61FFF00DD1CDD /* AppDelegate.m in Sources */,
