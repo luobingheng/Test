@@ -6,6 +6,8 @@
 //  Copyright (c) 2015年 小码哥. All rights reserved.
 //
 
+//(打印json显示中文)
+
 #import <Foundation/Foundation.h>
 
 @implementation NSDictionary (DLLog)

@@ -9,7 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import <Foundation/Foundation.h>
-#import "UIView+DLExtension(重写frame的尺寸更改).h"
+#import "UIView+DLExtension.h"
+#import "NSDate+DLExtension.h"
 
 #pragma mark - color
 
@@ -28,8 +29,13 @@
 
 extern NSString *const APIString;
 
+#pragma mark - date
+
+#define DLDate [NSDate dateWithTimeInterval:60*60*8 sinceDate:[NSDate date]]
+
 #pragma mark - other
 
 #define DLLogFunc NSLog(@"%s", __func__)
+
 
 #endif /* PrefixHeader_pch */

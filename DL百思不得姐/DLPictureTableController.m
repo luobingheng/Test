@@ -14,6 +14,13 @@
 
 @implementation DLPictureTableController
 
+- (instancetype)init{
+    if (self = [super init]) {
+        self.title = @"图片";
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

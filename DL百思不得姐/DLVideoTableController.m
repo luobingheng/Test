@@ -14,6 +14,13 @@
 
 @implementation DLVideoTableController
 
+- (instancetype)init{
+    if (self = [super init]) {
+        self.title = @"视频";
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

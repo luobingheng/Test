@@ -18,19 +18,19 @@
 //精华
 @interface DLEssenceViewController ()<UIScrollViewDelegate>
 
-@property (nonatomic, strong) UIButton *selectedTitleButton;
+@property (nonatomic, strong) UIButton *selectedTitleButton;//标题被选中按钮
 
-@property (nonatomic, strong) UIView *indicator;
+@property (nonatomic, strong) UIView *indicator;//标题选中指示器
 
-@property (nonatomic, strong) UIView *titlesView;
+@property (nonatomic, strong) UIView *titlesView;//标题栏
 
-@property (nonatomic, strong) UIScrollView *contentScrollView;
+@property (nonatomic, strong) UIScrollView *contentScrollView;//转换子控制器页面的父控件
 
-@property (nonatomic, strong) NSArray *contentTableViews;
+@property (nonatomic, strong) NSArray *contentTableViews;//显示内容的子控制器
 
-@property (nonatomic, strong) NSArray *titleButtons;
+@property (nonatomic, strong) NSArray *titleButtons;//所有标题按钮
 
-@property (nonatomic, assign) NSInteger scrollIndex;
+@property (nonatomic, assign) NSInteger scrollIndex;//子控制器滚动索引
 
 
 @end
@@ -44,17 +44,15 @@
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"MainTagSubIcon" highlightedImageName:@"MainTagSubIconClick" target:self selector:@selector(showRecommendTags)];
 
-    [self setupTitlesView];
+    [self setupContentTable];//添加显示内容的子控制器
     
-}
-
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
+    [self setupTitlesView];//标题栏
     
-    [self setupContentScrollView];
+    [self setupContentScrollView];//赋值不同类型帖子间跳转的父控件
     
     [self scrollViewDidEndDecelerating:self.contentScrollView];
 }
+
 
 #pragma mark - setup
 
@@ -72,13 +70,13 @@
     indicator.backgroundColor = [UIColor redColor];
     [titlesView addSubview:indicator];
     
-    NSArray *titles = @[@"全部",@"视频", @"声音", @"图片", @"段子"];
     NSMutableArray *arrM = [NSMutableArray array];
     
     for (int i = 0; i<5; i++) {//添加标题按钮
         UIButton *b = [UIButton buttonWithType:UIButtonTypeCustom];
         b.frame = CGRectMake(i * screenW / 5, 0, screenW / 5, titlesViewH);
-        [b setTitle:titles[i] forState:UIControlStateNormal];
+        NSString *title = self.childViewControllers[i].title;
+        [b setTitle:title forState:UIControlStateNormal];
         [b setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [b setTitleColor:[UIColor redColor] forState:UIControlStateDisabled];
         b.titleLabel.font = [UIFont systemFontOfSize:14];
@@ -114,7 +112,7 @@
     
     self.scrollIndex = button.tag;
     
-    NSInteger contentOffsetX = self.scrollIndex * screenW;
+    NSInteger contentOffsetX = self.scrollIndex * self.view.width;
     [self.contentScrollView setContentOffset:CGPointMake(contentOffsetX, 0) animated:YES];
     
     [UIView animateWithDuration:0.25 animations:^{
@@ -139,8 +137,7 @@
     
     self.contentScrollView = contentScrollView;
     
-    [self setupContentTable];
-}
+    }
 
 - (void)setupContentTable{
     
@@ -172,19 +169,19 @@
     [self selectTitle:self.titleButtons[i]];
 }
 
--(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+-(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{//调用setContentOffset:方法后会调用此方法
     
     self.scrollIndex = scrollView.contentOffset.x / scrollView.width;
     
     UITableViewController *contentTable = self.contentTableViews[self.scrollIndex];
 
     contentTable.tableView.frame = CGRectMake(scrollView.contentOffset.x, 0, scrollView.width, scrollView.height);
-    contentTable.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.titlesView.frame), 0, self.tabBarController.tabBar.height, 0);
+    contentTable.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.titlesView.frame), 0, self.tabBarController.tabBar.height + 40, 0);
 ;
     contentTable.tableView.scrollIndicatorInsets = contentTable.tableView.contentInset;
     
     [scrollView addSubview:contentTable.tableView];
-    
+    [contentTable.tableView reloadData];
 }
 
 - (void)showRecommendTags{

@@ -6,7 +6,9 @@
 //  Copyright (c) 2015年 小码哥. All rights reserved.
 //
 
-#import "UIView+DLExtension(重写frame的尺寸更改).h"
+//(重写frame的尺寸读写)
+
+#import "UIView+DLExtension.h"
 
 @implementation UIView (DLExtension)
 

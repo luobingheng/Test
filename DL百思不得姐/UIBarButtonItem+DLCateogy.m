@@ -6,10 +6,16 @@
 //  Copyright © 2016年 orgName. All rights reserved.
 //
 
+//(自定义导航栏按钮)
+
 #import "UIBarButtonItem+DLCateogy.h"
 
 @implementation UIBarButtonItem (DLCateogy)
 
++ (instancetype)dl_itemWithImageName:(NSString *)imageName highlightedImageName:(NSString *)highlightedImageName target:(id)target selector:(SEL)selector{
+    
+    return [self itemWithImageName:imageName highlightedImageName:highlightedImageName target:target selector:selector];
+}
 
 + (instancetype)itemWithImageName:(NSString *)imageName highlightedImageName:(NSString *)highlightedImageName target:(id)target selector:(SEL)selector{
     

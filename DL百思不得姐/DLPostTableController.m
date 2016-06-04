@@ -1,12 +1,12 @@
 //
-//  DLAllTableController.m
+//  DLPostTableController.m
 //  DL百思不得姐
 //
 //  Created by Dan on 16/5/27.
 //  Copyright © 2016年 orgName. All rights reserved.
 //
 
-#import "DLTextTableController.h"
+#import "DLPostTableController.h"
 #import <AFNetworking.h>
 #import <MJExtension.h>
 #import <MJRefresh.h>
@@ -14,7 +14,7 @@
 #import <UIImageView+WebCache.h>
 #import "DLPostCell.h"
 
-@interface DLTextTableController ()
+@interface DLPostTableController ()
 
 @property (nonatomic, strong) AFHTTPSessionManager *AFmanager;
 
@@ -31,7 +31,7 @@
 
 static NSString *const DLPostCellID = @"DLPostCell";
 
-@implementation DLTextTableController
+@implementation DLPostTableController
 
 - (NSMutableArray *)posts{
     if (!_posts) {
@@ -67,7 +67,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
 }
 
 - (void)loadNewData{
-
+    
     
     [self.tableView.mj_footer endRefreshing];
     
@@ -80,7 +80,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
     [self.AFmanager GET:APIString parameters:par progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         self.posts = [DLPost mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
-
+        
         if (self.currentPar != par) {
             return ;
         }
@@ -137,7 +137,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
         if (self.currentPar != par) {
             return ;
         }
-
+        
         [self.tableView.mj_header endRefreshing];
         [self.tableView.mj_footer endRefreshing];
     }];
@@ -146,7 +146,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
+    
     return self.posts.count;
 }
 

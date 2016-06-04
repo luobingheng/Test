@@ -13,6 +13,12 @@
 @end
 
 @implementation DLAudioTableController
+- (instancetype)init{
+    if (self = [super init]) {
+        self.title = @"声音";
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

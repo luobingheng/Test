@@ -12,13 +12,17 @@
 		371256781CF0141400A7EA2E /* DLRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371256761CF0141400A7EA2E /* DLRecommendTagCell.xib */; };
 		3712567C1CF046DF00A7EA2E /* DLRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3712567A1CF046DF00A7EA2E /* DLRecommendTagsViewController.m */; };
 		3712567D1CF046DF00A7EA2E /* DLRecommendTagsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3712567B1CF046DF00A7EA2E /* DLRecommendTagsViewController.xib */; };
-		371256831CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).m in Sources */ = {isa = PBXBuildFile; fileRef = 371256821CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).m */; };
-		371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */; };
 		371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 371339121CEDA76A006F76B1 /* DLRecommendUser.m */; };
 		371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 371339151CEDAD00006F76B1 /* DLRecommendUserCell.m */; };
 		371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371339161CEDAD00006F76B1 /* DLRecommendUserCell.xib */; };
+		37163E181D010C92005F4EA1 /* Foundation+DLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 37163E131D010C92005F4EA1 /* Foundation+DLLog.m */; };
+		37163E191D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37163E151D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.m */; };
+		37163E1D1D010D2D005F4EA1 /* UIView+DLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37163E1C1D010D2D005F4EA1 /* UIView+DLExtension.m */; };
+		3723F7901CFE713E009D90FA /* DLPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723F78E1CFE713E009D90FA /* DLPostCell.m */; };
+		3723F7911CFE713E009D90FA /* DLPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3723F78F1CFE713E009D90FA /* DLPostCell.xib */; };
 		3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D41CEC91260021BA5B /* DLGlobalConst.m */; };
 		3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */; };
+		37393FCB1D02872E00E9E79C /* DLPostTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37393FCA1D02872E00E9E79C /* DLPostTableController.m */; };
 		375956811CF7EAB2003EF4C2 /* DLAllTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956801CF7EAB2003EF4C2 /* DLAllTableController.m */; };
 		3759569A1CF8239C003EF4C2 /* DLAudioTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956931CF8239C003EF4C2 /* DLAudioTableController.m */; };
 		3759569B1CF8239C003EF4C2 /* DLPictureTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956951CF8239C003EF4C2 /* DLPictureTableController.m */; };
@@ -27,13 +31,14 @@
 		376FA8681CF5420200011595 /* DLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FA8671CF5420200011595 /* DLTextField.m */; };
 		377C7DCE1CF69285006F5405 /* DLGuidanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C7DCD1CF69285006F5405 /* DLGuidanceView.m */; };
 		377C7DD01CF6929A006F5405 /* DLGuidanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */; };
-		37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */; };
+		3784C9B01CFC5F5D0035F2AA /* DLPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3784C9AF1CFC5F5D0035F2AA /* DLPost.m */; };
 		37ACC18F1CEC52B90003B7F8 /* DLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC18E1CEC52B90003B7F8 /* DLNavigationController.m */; };
 		37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACC1931CEC5B8E0003B7F8 /* DLRecommendViewController.m */; };
 		37ACC1961CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37ACC1951CEC5BCC0003B7F8 /* DLFriendTrendsViewController.xib */; };
 		37ACC1981CEC5BFE0003B7F8 /* DLRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37ACC1971CEC5BFE0003B7F8 /* DLRecommendViewController.xib */; };
 		37B58D5B1CED61D50006B757 /* DLRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B58D5A1CED61D50006B757 /* DLRecommendCategoryCell.m */; };
 		37B58D5D1CED61E50006B757 /* DLRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B58D5C1CED61E50006B757 /* DLRecommendCategoryCell.xib */; };
+		37D072291D01AC7300DA1D5D /* NSDate+DLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D072281D01AC7300DA1D5D /* NSDate+DLExtension.m */; };
 		37DCC7681CF45A1700E6B52D /* DLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DCC7671CF45A1700E6B52D /* DLLoginController.m */; };
 		37DCC76A1CF45A3B00E6B52D /* DLLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DCC7691CF45A3B00E6B52D /* DLLoginController.xib */; };
 		37DCC76D1CF4758800E6B52D /* DLLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DCC76C1CF4758700E6B52D /* DLLoginButton.m */; };
@@ -79,17 +84,25 @@
 		371256791CF046DF00A7EA2E /* DLRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendTagsViewController.h; sourceTree = "<group>"; };
 		3712567A1CF046DF00A7EA2E /* DLRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendTagsViewController.m; sourceTree = "<group>"; };
 		3712567B1CF046DF00A7EA2E /* DLRecommendTagsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendTagsViewController.xib; sourceTree = "<group>"; };
-		371256811CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DLExtension(重写frame的尺寸更改).h"; sourceTree = "<group>"; };
-		371256821CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLExtension(重写frame的尺寸更改).m"; sourceTree = "<group>"; };
-		3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+DLLog.m"; sourceTree = "<group>"; };
 		371339111CEDA76A006F76B1 /* DLRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendUser.h; sourceTree = "<group>"; };
 		371339121CEDA76A006F76B1 /* DLRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendUser.m; sourceTree = "<group>"; };
 		371339141CEDAD00006F76B1 /* DLRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendUserCell.h; sourceTree = "<group>"; };
 		371339151CEDAD00006F76B1 /* DLRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendUserCell.m; sourceTree = "<group>"; };
 		371339161CEDAD00006F76B1 /* DLRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendUserCell.xib; sourceTree = "<group>"; };
+		37163E131D010C92005F4EA1 /* Foundation+DLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+DLLog.m"; sourceTree = "<group>"; };
+		37163E141D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DLCateogy.h"; sourceTree = "<group>"; };
+		37163E151D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DLCateogy.m"; sourceTree = "<group>"; };
+		37163E1B1D010D2D005F4EA1 /* UIView+DLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DLExtension.h"; sourceTree = "<group>"; };
+		37163E1C1D010D2D005F4EA1 /* UIView+DLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLExtension.m"; sourceTree = "<group>"; };
+		3723F78B1CFE6F4D009D90FA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3723F78D1CFE713E009D90FA /* DLPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPostCell.h; sourceTree = "<group>"; };
+		3723F78E1CFE713E009D90FA /* DLPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPostCell.m; sourceTree = "<group>"; };
+		3723F78F1CFE713E009D90FA /* DLPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLPostCell.xib; sourceTree = "<group>"; };
 		3733B6D41CEC91260021BA5B /* DLGlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGlobalConst.m; sourceTree = "<group>"; };
 		3733B6D61CEC95640021BA5B /* DLRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendCategory.h; sourceTree = "<group>"; };
 		3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategory.m; sourceTree = "<group>"; };
+		37393FC91D02872E00E9E79C /* DLPostTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPostTableController.h; sourceTree = "<group>"; };
+		37393FCA1D02872E00E9E79C /* DLPostTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPostTableController.m; sourceTree = "<group>"; };
 		3759567F1CF7EAB2003EF4C2 /* DLAllTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAllTableController.h; sourceTree = "<group>"; };
 		375956801CF7EAB2003EF4C2 /* DLAllTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAllTableController.m; sourceTree = "<group>"; };
 		375956921CF8239C003EF4C2 /* DLAudioTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAudioTableController.h; sourceTree = "<group>"; };
@@ -105,8 +118,8 @@
 		377C7DCC1CF69285006F5405 /* DLGuidanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGuidanceView.h; sourceTree = "<group>"; };
 		377C7DCD1CF69285006F5405 /* DLGuidanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGuidanceView.m; sourceTree = "<group>"; };
 		377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLGuidanceView.xib; sourceTree = "<group>"; };
-		37ACC1881CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DLCateogy.h"; sourceTree = "<group>"; };
-		37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DLCateogy.m"; sourceTree = "<group>"; };
+		3784C9AE1CFC5F5D0035F2AA /* DLPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPost.h; sourceTree = "<group>"; };
+		3784C9AF1CFC5F5D0035F2AA /* DLPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPost.m; sourceTree = "<group>"; };
 		37ACC18D1CEC52B90003B7F8 /* DLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNavigationController.h; sourceTree = "<group>"; };
 		37ACC18E1CEC52B90003B7F8 /* DLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNavigationController.m; sourceTree = "<group>"; };
 		37ACC1921CEC5B8E0003B7F8 /* DLRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendViewController.h; sourceTree = "<group>"; };
@@ -116,6 +129,8 @@
 		37B58D591CED61D50006B757 /* DLRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendCategoryCell.h; sourceTree = "<group>"; };
 		37B58D5A1CED61D50006B757 /* DLRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategoryCell.m; sourceTree = "<group>"; };
 		37B58D5C1CED61E50006B757 /* DLRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		37D072271D01AC7300DA1D5D /* NSDate+DLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DLExtension.h"; sourceTree = "<group>"; };
+		37D072281D01AC7300DA1D5D /* NSDate+DLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DLExtension.m"; sourceTree = "<group>"; };
 		37DCC7661CF45A1700E6B52D /* DLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLoginController.h; sourceTree = "<group>"; };
 		37DCC7671CF45A1700E6B52D /* DLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLoginController.m; sourceTree = "<group>"; };
 		37DCC7691CF45A3B00E6B52D /* DLLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLLoginController.xib; sourceTree = "<group>"; };
@@ -180,6 +195,8 @@
 		3712566F1CF00BC100A7EA2E /* m */ = {
 			isa = PBXGroup;
 			children = (
+				3784C9AE1CFC5F5D0035F2AA /* DLPost.h */,
+				3784C9AF1CFC5F5D0035F2AA /* DLPost.m */,
 			);
 			name = m;
 			sourceTree = "<group>";
@@ -187,6 +204,9 @@
 		371256701CF00BC500A7EA2E /* v */ = {
 			isa = PBXGroup;
 			children = (
+				3723F78D1CFE713E009D90FA /* DLPostCell.h */,
+				3723F78E1CFE713E009D90FA /* DLPostCell.m */,
+				3723F78F1CFE713E009D90FA /* DLPostCell.xib */,
 			);
 			name = v;
 			sourceTree = "<group>";
@@ -233,11 +253,13 @@
 		37ACC1871CEC0B000003B7F8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				371256811CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).h */,
-				371256821CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).m */,
-				37ACC1881CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.h */,
-				37ACC1891CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m */,
-				3713390F1CEDA50E006F76B1 /* Foundation+DLLog.m */,
+				37163E131D010C92005F4EA1 /* Foundation+DLLog.m */,
+				37163E141D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.h */,
+				37163E151D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.m */,
+				37163E1B1D010D2D005F4EA1 /* UIView+DLExtension.h */,
+				37163E1C1D010D2D005F4EA1 /* UIView+DLExtension.m */,
+				37D072271D01AC7300DA1D5D /* NSDate+DLExtension.h */,
+				37D072281D01AC7300DA1D5D /* NSDate+DLExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -334,7 +356,8 @@
 				655976321CE86DE5009A7F62 /* NewPost */,
 				655976311CE86DE3009A7F62 /* FriendTrends */,
 				655976301CE86DE0009A7F62 /* Me */,
-				6559762F1CE86DDB009A7F62 /* Others */,
+				6559762F1CE86DDB009A7F62 /* Main */,
+				37ACC1871CEC0B000003B7F8 /* Category */,
 				6519B0671CE61FFF00DD1CDD /* AppDelegate.h */,
 				6519B0681CE61FFF00DD1CDD /* AppDelegate.m */,
 				6559764A1CE87B21009A7F62 /* PrefixHeader.pch */,
@@ -373,14 +396,13 @@
 			path = "DL百思不得姐UITests";
 			sourceTree = "<group>";
 		};
-		6559762F1CE86DDB009A7F62 /* Others */ = {
+		6559762F1CE86DDB009A7F62 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				37ACC1871CEC0B000003B7F8 /* Category */,
 				6559764C1CE89AC8009A7F62 /* v */,
 				655976341CE874BB009A7F62 /* c */,
 			);
-			name = Others;
+			name = Main;
 			sourceTree = "<group>";
 		};
 		655976301CE86DE0009A7F62 /* Me */ = {
@@ -447,6 +469,8 @@
 				375956951CF8239C003EF4C2 /* DLPictureTableController.m */,
 				375956961CF8239C003EF4C2 /* DLTextTableController.h */,
 				375956971CF8239C003EF4C2 /* DLTextTableController.m */,
+				37393FC91D02872E00E9E79C /* DLPostTableController.h */,
+				37393FCA1D02872E00E9E79C /* DLPostTableController.m */,
 			);
 			name = c;
 			sourceTree = "<group>";
@@ -497,6 +521,7 @@
 		970F97FBF30033542A98DBE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3723F78B1CFE6F4D009D90FA /* CoreText.framework */,
 				81541D41C8B7AE77A5849CDE /* libPods-DL百思不得姐.a */,
 			);
 			name = Frameworks;
@@ -609,6 +634,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3723F7911CFE713E009D90FA /* DLPostCell.xib in Resources */,
 				37B58D5D1CED61E50006B757 /* DLRecommendCategoryCell.xib in Resources */,
 				371256781CF0141400A7EA2E /* DLRecommendTagCell.xib in Resources */,
 				371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */,
@@ -691,19 +717,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37163E1D1D010D2D005F4EA1 /* UIView+DLExtension.m in Sources */,
 				37B58D5B1CED61D50006B757 /* DLRecommendCategoryCell.m in Sources */,
 				376FA8681CF5420200011595 /* DLTextField.m in Sources */,
 				655976431CE8792B009A7F62 /* DLNewViewController.m in Sources */,
 				37DCC76D1CF4758800E6B52D /* DLLoginButton.m in Sources */,
 				375956811CF7EAB2003EF4C2 /* DLAllTableController.m in Sources */,
 				3759569B1CF8239C003EF4C2 /* DLPictureTableController.m in Sources */,
-				371339101CEDA50E006F76B1 /* Foundation+DLLog.m in Sources */,
-				371256831CF05A1200A7EA2E /* UIView+DLExtension(重写frame的尺寸更改).m in Sources */,
+				37D072291D01AC7300DA1D5D /* NSDate+DLExtension.m in Sources */,
 				3759569C1CF8239C003EF4C2 /* DLTextTableController.m in Sources */,
 				371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */,
-				37ACC18A1CEC0C570003B7F8 /* UIBarButtonItem+DLCateogy.m in Sources */,
 				371256731CF013F600A7EA2E /* DLRecommendTag.m in Sources */,
 				3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */,
+				37393FCB1D02872E00E9E79C /* DLPostTableController.m in Sources */,
 				371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */,
 				3759569D1CF8239C003EF4C2 /* DLVideoTableController.m in Sources */,
 				371256771CF0141400A7EA2E /* DLRecommendTagCell.m in Sources */,
@@ -711,6 +737,9 @@
 				3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */,
 				37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */,
 				3759569A1CF8239C003EF4C2 /* DLAudioTableController.m in Sources */,
+				37163E191D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.m in Sources */,
+				37163E181D010C92005F4EA1 /* Foundation+DLLog.m in Sources */,
+				3784C9B01CFC5F5D0035F2AA /* DLPost.m in Sources */,
 				37DCC7681CF45A1700E6B52D /* DLLoginController.m in Sources */,
 				3712567C1CF046DF00A7EA2E /* DLRecommendTagsViewController.m in Sources */,
 				6519B0691CE61FFF00DD1CDD /* AppDelegate.m in Sources */,
@@ -719,6 +748,7 @@
 				655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */,
 				655976491CE87957009A7F62 /* DLMeViewController.m in Sources */,
 				655976371CE8752A009A7F62 /* DLTabBarController.m in Sources */,
+				3723F7901CFE713E009D90FA /* DLPostCell.m in Sources */,
 				377C7DCE1CF69285006F5405 /* DLGuidanceView.m in Sources */,
 				37ACC18F1CEC52B90003B7F8 /* DLNavigationController.m in Sources */,
 			);

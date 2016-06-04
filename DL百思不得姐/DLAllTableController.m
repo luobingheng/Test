@@ -14,6 +14,13 @@
 
 @implementation DLAllTableController
 
+- (instancetype)init{
+    if (self = [super init]) {
+        self.title = @"全部";
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
