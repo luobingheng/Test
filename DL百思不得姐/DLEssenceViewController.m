@@ -9,11 +9,7 @@
 #import "DLEssenceViewController.h"
 #import "UIBarButtonItem+DLCateogy.h"
 #import "DLRecommendTagsViewController.h"
-#import "DLAllTableController.h"
-#import "DLVideoTableController.h"
-#import "DLAudioTableController.h"
-#import "DLPictureTableController.h"
-#import "DLTextTableController.h"
+#import "DLPostTableController.h"
 
 //精华
 @interface DLEssenceViewController ()<UIScrollViewDelegate>
@@ -44,7 +40,7 @@
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"MainTagSubIcon" highlightedImageName:@"MainTagSubIconClick" target:self selector:@selector(showRecommendTags)];
 
-    [self setupContentTable];//添加显示内容的子控制器
+    [self setupContentTableController];//添加显示内容的子控制器
     
     [self setupTitlesView];//标题栏
     
@@ -55,6 +51,31 @@
 
 
 #pragma mark - setup
+
+- (void)setupContentTableController{
+    
+    DLPostTableController *allVC = [DLPostTableController new];
+    allVC.postType = DLPostTypeAll;
+    [self addChildViewController:allVC];
+    
+    DLPostTableController *videoVC = [DLPostTableController new];
+    videoVC.postType = DLPostTypeVideo;
+    [self addChildViewController:videoVC];
+    
+    DLPostTableController *audioVC = [DLPostTableController new];
+    audioVC.postType = DLPostTypeAudio;
+    [self addChildViewController:audioVC];
+    
+    DLPostTableController *pictureVC = [DLPostTableController new];
+    pictureVC.postType = DLPostTypePicture;
+    [self addChildViewController:pictureVC];
+    
+    DLPostTableController *textVC = [DLPostTableController new];
+    textVC.postType = DLPostTypeText;
+    [self addChildViewController:textVC];
+    
+    self.contentTableViews = @[allVC, videoVC, audioVC, pictureVC, textVC];
+}
 
 - (void)setupTitlesView{
     
@@ -139,25 +160,6 @@
     
     }
 
-- (void)setupContentTable{
-    
-    DLAllTableController *allVC = [DLAllTableController new];
-    [self addChildViewController:allVC];
-    
-    DLVideoTableController *videoVC = [DLVideoTableController new];
-    [self addChildViewController:videoVC];
-    
-    DLAudioTableController *audioVC = [DLAudioTableController new];
-    [self addChildViewController:audioVC];
-    
-    DLPictureTableController *pictureVC = [DLPictureTableController new];
-    [self addChildViewController:pictureVC];
-    
-    DLTextTableController *textVC = [DLTextTableController new];
-    [self addChildViewController:textVC];
-    
-    self.contentTableViews = @[allVC, videoVC, audioVC, pictureVC, textVC];
-}
 
 #pragma mark - UIScrollViewDelegate
 

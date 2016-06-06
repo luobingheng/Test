@@ -42,10 +42,33 @@ static NSString *const DLPostCellID = @"DLPostCell";
 
 - (instancetype)init{
     if (self = [super init]) {
-        self.title = @"段子";
         self.view.backgroundColor = DLBackgroundColor;
     }
     return self;
+}
+
+- (void)setPostType:(DLPostType)postType{
+    
+    _postType = postType;
+    
+    switch (self.postType) {
+            
+        case DLPostTypeAll:
+            self.title = @"全部";
+            break;
+        case DLPostTypeVideo:
+            self.title = @"视频";
+            break;
+        case DLPostTypeAudio:
+            self.title = @"音频";
+            break;
+        case DLPostTypePicture:
+            self.title = @"图片";
+            break;
+        case DLPostTypeText:
+            self.title = @"段子";
+            break;
+    }
 }
 
 - (void)viewDidLoad {
@@ -74,7 +97,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
     NSMutableDictionary *par = [NSMutableDictionary dictionary];
     par[@"a"] = @"list";
     par[@"c"] = @"data";
-    par[@"type"] = @"29";
+    par[@"type"] = @(self.postType);
     self.currentPar = par;
     
     [self.AFmanager GET:APIString parameters:par progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -112,7 +135,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
     par[@"c"] = @"data";
     par[@"type"] = @"29";
     NSInteger page = self.page + 1;
-    par[@"page"] = @(page);
+    par[@"page"] = @(self.postType);
     par[@"maxtime"] = self.maxtime;
     self.currentPar = par;
     

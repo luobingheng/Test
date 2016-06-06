@@ -8,5 +8,7 @@ pod "MJRefresh"
 pod "BlocksKit"
 pod "Masonry"
 pod "SVProgressHUD"
+pod "pop"
+pod "UITableView+FDTemplateLayoutCell"
 
 end

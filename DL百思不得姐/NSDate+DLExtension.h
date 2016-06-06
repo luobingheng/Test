@@ -11,6 +11,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define DLDate [NSDate dateWithTimeInterval:60*60*8 sinceDate:[NSDate date]]
+
 UIKIT_EXTERN NSString * const dl_dateFormat;
 
 @interface NSDate (DLExtension)

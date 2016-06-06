@@ -23,11 +23,6 @@
 		3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D41CEC91260021BA5B /* DLGlobalConst.m */; };
 		3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */; };
 		37393FCB1D02872E00E9E79C /* DLPostTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37393FCA1D02872E00E9E79C /* DLPostTableController.m */; };
-		375956811CF7EAB2003EF4C2 /* DLAllTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956801CF7EAB2003EF4C2 /* DLAllTableController.m */; };
-		3759569A1CF8239C003EF4C2 /* DLAudioTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956931CF8239C003EF4C2 /* DLAudioTableController.m */; };
-		3759569B1CF8239C003EF4C2 /* DLPictureTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956951CF8239C003EF4C2 /* DLPictureTableController.m */; };
-		3759569C1CF8239C003EF4C2 /* DLTextTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956971CF8239C003EF4C2 /* DLTextTableController.m */; };
-		3759569D1CF8239C003EF4C2 /* DLVideoTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375956991CF8239C003EF4C2 /* DLVideoTableController.m */; };
 		376FA8681CF5420200011595 /* DLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FA8671CF5420200011595 /* DLTextField.m */; };
 		377C7DCE1CF69285006F5405 /* DLGuidanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C7DCD1CF69285006F5405 /* DLGuidanceView.m */; };
 		377C7DD01CF6929A006F5405 /* DLGuidanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C7DCF1CF6929A006F5405 /* DLGuidanceView.xib */; };
@@ -103,16 +98,7 @@
 		3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategory.m; sourceTree = "<group>"; };
 		37393FC91D02872E00E9E79C /* DLPostTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPostTableController.h; sourceTree = "<group>"; };
 		37393FCA1D02872E00E9E79C /* DLPostTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPostTableController.m; sourceTree = "<group>"; };
-		3759567F1CF7EAB2003EF4C2 /* DLAllTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAllTableController.h; sourceTree = "<group>"; };
-		375956801CF7EAB2003EF4C2 /* DLAllTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAllTableController.m; sourceTree = "<group>"; };
-		375956921CF8239C003EF4C2 /* DLAudioTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAudioTableController.h; sourceTree = "<group>"; };
-		375956931CF8239C003EF4C2 /* DLAudioTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAudioTableController.m; sourceTree = "<group>"; };
-		375956941CF8239C003EF4C2 /* DLPictureTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPictureTableController.h; sourceTree = "<group>"; };
-		375956951CF8239C003EF4C2 /* DLPictureTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPictureTableController.m; sourceTree = "<group>"; };
-		375956961CF8239C003EF4C2 /* DLTextTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextTableController.h; sourceTree = "<group>"; };
-		375956971CF8239C003EF4C2 /* DLTextTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextTableController.m; sourceTree = "<group>"; };
-		375956981CF8239C003EF4C2 /* DLVideoTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLVideoTableController.h; sourceTree = "<group>"; };
-		375956991CF8239C003EF4C2 /* DLVideoTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLVideoTableController.m; sourceTree = "<group>"; };
+		374432901D050C0D002A9CAC /* DLGlobalConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLGlobalConst.h; sourceTree = "<group>"; };
 		376FA8661CF5420200011595 /* DLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextField.h; sourceTree = "<group>"; };
 		376FA8671CF5420200011595 /* DLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextField.m; sourceTree = "<group>"; };
 		377C7DCC1CF69285006F5405 /* DLGuidanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGuidanceView.h; sourceTree = "<group>"; };
@@ -361,6 +347,7 @@
 				6519B0671CE61FFF00DD1CDD /* AppDelegate.h */,
 				6519B0681CE61FFF00DD1CDD /* AppDelegate.m */,
 				6559764A1CE87B21009A7F62 /* PrefixHeader.pch */,
+				374432901D050C0D002A9CAC /* DLGlobalConst.h */,
 				3733B6D41CEC91260021BA5B /* DLGlobalConst.m */,
 				6519B0701CE61FFF00DD1CDD /* Assets.xcassets */,
 				6519B0721CE61FFF00DD1CDD /* LaunchScreen.storyboard */,
@@ -459,16 +446,6 @@
 			children = (
 				6559763C1CE87847009A7F62 /* DLEssenceViewController.h */,
 				6559763D1CE87847009A7F62 /* DLEssenceViewController.m */,
-				3759567F1CF7EAB2003EF4C2 /* DLAllTableController.h */,
-				375956801CF7EAB2003EF4C2 /* DLAllTableController.m */,
-				375956981CF8239C003EF4C2 /* DLVideoTableController.h */,
-				375956991CF8239C003EF4C2 /* DLVideoTableController.m */,
-				375956921CF8239C003EF4C2 /* DLAudioTableController.h */,
-				375956931CF8239C003EF4C2 /* DLAudioTableController.m */,
-				375956941CF8239C003EF4C2 /* DLPictureTableController.h */,
-				375956951CF8239C003EF4C2 /* DLPictureTableController.m */,
-				375956961CF8239C003EF4C2 /* DLTextTableController.h */,
-				375956971CF8239C003EF4C2 /* DLTextTableController.m */,
 				37393FC91D02872E00E9E79C /* DLPostTableController.h */,
 				37393FCA1D02872E00E9E79C /* DLPostTableController.m */,
 			);
@@ -722,21 +699,16 @@
 				376FA8681CF5420200011595 /* DLTextField.m in Sources */,
 				655976431CE8792B009A7F62 /* DLNewViewController.m in Sources */,
 				37DCC76D1CF4758800E6B52D /* DLLoginButton.m in Sources */,
-				375956811CF7EAB2003EF4C2 /* DLAllTableController.m in Sources */,
-				3759569B1CF8239C003EF4C2 /* DLPictureTableController.m in Sources */,
 				37D072291D01AC7300DA1D5D /* NSDate+DLExtension.m in Sources */,
-				3759569C1CF8239C003EF4C2 /* DLTextTableController.m in Sources */,
 				371339171CEDAD00006F76B1 /* DLRecommendUserCell.m in Sources */,
 				371256731CF013F600A7EA2E /* DLRecommendTag.m in Sources */,
 				3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */,
 				37393FCB1D02872E00E9E79C /* DLPostTableController.m in Sources */,
 				371339131CEDA76A006F76B1 /* DLRecommendUser.m in Sources */,
-				3759569D1CF8239C003EF4C2 /* DLVideoTableController.m in Sources */,
 				371256771CF0141400A7EA2E /* DLRecommendTagCell.m in Sources */,
 				6559764F1CE89ADF009A7F62 /* DLTabBar.m in Sources */,
 				3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */,
 				37ACC1941CEC5B8E0003B7F8 /* DLRecommendViewController.m in Sources */,
-				3759569A1CF8239C003EF4C2 /* DLAudioTableController.m in Sources */,
 				37163E191D010C92005F4EA1 /* UIBarButtonItem+DLCateogy.m in Sources */,
 				37163E181D010C92005F4EA1 /* Foundation+DLLog.m in Sources */,
 				3784C9B01CFC5F5D0035F2AA /* DLPost.m in Sources */,

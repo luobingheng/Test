@@ -6,6 +6,6 @@
 //  Copyright © 2016年 orgName. All rights reserved.
 //
 
-
+#import "DLGlobalConst.h"
 
 NSString *const APIString = @"http://api.budejie.com/api/api_open.php";

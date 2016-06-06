@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import <Foundation/Foundation.h>
+#import "DLGlobalConst.h"
 #import "UIView+DLExtension.h"
 #import "NSDate+DLExtension.h"
 
@@ -25,13 +26,7 @@
 #define screenW [UIScreen mainScreen].bounds.size.width
 #define screenH [UIScreen mainScreen].bounds.size.height
 
-#pragma mark - string
 
-extern NSString *const APIString;
-
-#pragma mark - date
-
-#define DLDate [NSDate dateWithTimeInterval:60*60*8 sinceDate:[NSDate date]]
 
 #pragma mark - other
 
