@@ -20,6 +20,8 @@
 		37163E1D1D010D2D005F4EA1 /* UIView+DLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37163E1C1D010D2D005F4EA1 /* UIView+DLExtension.m */; };
 		3723F7901CFE713E009D90FA /* DLPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723F78E1CFE713E009D90FA /* DLPostCell.m */; };
 		3723F7911CFE713E009D90FA /* DLPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3723F78F1CFE713E009D90FA /* DLPostCell.xib */; };
+		3724B0521D0677C6007960E0 /* DLPostImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724B0511D0677C6007960E0 /* DLPostImageView.m */; };
+		3724B0541D0677D0007960E0 /* DLPostImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3724B0531D0677D0007960E0 /* DLPostImageView.xib */; };
 		3733B6D51CEC91260021BA5B /* DLGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D41CEC91260021BA5B /* DLGlobalConst.m */; };
 		3733B6D81CEC95640021BA5B /* DLRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */; };
 		37393FCB1D02872E00E9E79C /* DLPostTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37393FCA1D02872E00E9E79C /* DLPostTableController.m */; };
@@ -93,6 +95,9 @@
 		3723F78D1CFE713E009D90FA /* DLPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPostCell.h; sourceTree = "<group>"; };
 		3723F78E1CFE713E009D90FA /* DLPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPostCell.m; sourceTree = "<group>"; };
 		3723F78F1CFE713E009D90FA /* DLPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLPostCell.xib; sourceTree = "<group>"; };
+		3724B0501D0677C6007960E0 /* DLPostImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPostImageView.h; sourceTree = "<group>"; };
+		3724B0511D0677C6007960E0 /* DLPostImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPostImageView.m; sourceTree = "<group>"; };
+		3724B0531D0677D0007960E0 /* DLPostImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLPostImageView.xib; sourceTree = "<group>"; };
 		3733B6D41CEC91260021BA5B /* DLGlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGlobalConst.m; sourceTree = "<group>"; };
 		3733B6D61CEC95640021BA5B /* DLRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRecommendCategory.h; sourceTree = "<group>"; };
 		3733B6D71CEC95640021BA5B /* DLRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRecommendCategory.m; sourceTree = "<group>"; };
@@ -193,6 +198,9 @@
 				3723F78D1CFE713E009D90FA /* DLPostCell.h */,
 				3723F78E1CFE713E009D90FA /* DLPostCell.m */,
 				3723F78F1CFE713E009D90FA /* DLPostCell.xib */,
+				3724B0501D0677C6007960E0 /* DLPostImageView.h */,
+				3724B0511D0677C6007960E0 /* DLPostImageView.m */,
+				3724B0531D0677D0007960E0 /* DLPostImageView.xib */,
 			);
 			name = v;
 			sourceTree = "<group>";
@@ -615,6 +623,7 @@
 				37B58D5D1CED61E50006B757 /* DLRecommendCategoryCell.xib in Resources */,
 				371256781CF0141400A7EA2E /* DLRecommendTagCell.xib in Resources */,
 				371339181CEDAD00006F76B1 /* DLRecommendUserCell.xib in Resources */,
+				3724B0541D0677D0007960E0 /* DLPostImageView.xib in Resources */,
 				37ACC1981CEC5BFE0003B7F8 /* DLRecommendViewController.xib in Resources */,
 				37DCC76A1CF45A3B00E6B52D /* DLLoginController.xib in Resources */,
 				6519B0741CE61FFF00DD1CDD /* LaunchScreen.storyboard in Resources */,
@@ -718,6 +727,7 @@
 				6559763F1CE87847009A7F62 /* DLEssenceViewController.m in Sources */,
 				6519B0661CE61FFF00DD1CDD /* main.m in Sources */,
 				655976461CE8794F009A7F62 /* DLFriendTrendsViewController.m in Sources */,
+				3724B0521D0677C6007960E0 /* DLPostImageView.m in Sources */,
 				655976491CE87957009A7F62 /* DLMeViewController.m in Sources */,
 				655976371CE8752A009A7F62 /* DLTabBarController.m in Sources */,
 				3723F7901CFE713E009D90FA /* DLPostCell.m in Sources */,

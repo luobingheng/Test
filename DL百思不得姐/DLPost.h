@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DLPostTableController.h"
 
 @interface DLPost : NSObject
+
+@property (nonatomic, assign) DLPostType type;//帖子类型
 
 @property (nonatomic, copy) NSString *name;//昵称
 
@@ -26,5 +29,10 @@
 
 @property (nonatomic, copy) NSString *comment;//评论数
 
+@property (nonatomic, strong) NSString *image;//发布的图片
+
+@property (nonatomic, assign) NSInteger imgWidth;//图片的宽
+
+@property (nonatomic, assign) NSInteger imgHeight;//图片的高
 
 @end

@@ -7,8 +7,17 @@
 //
 
 #import "DLPost.h"
+#import <MJExtension.h>
 
 @implementation DLPost
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    
+    return @{@"image":@"image1",
+             @"imgWidth":@"width",
+             @"imgHeight":@"height"
+             };//左边是自己的名字,右边是服务器的
+}
 
 - (NSString *)created_at{
 

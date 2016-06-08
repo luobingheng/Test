@@ -13,6 +13,7 @@
 #import "DLPost.h"
 #import <UIImageView+WebCache.h>
 #import "DLPostCell.h"
+#import <UITableView+FDTemplateLayoutCell.h>
 
 @interface DLPostTableController ()
 
@@ -52,7 +53,6 @@ static NSString *const DLPostCellID = @"DLPostCell";
     _postType = postType;
     
     switch (self.postType) {
-            
         case DLPostTypeAll:
             self.title = @"全部";
             break;
@@ -103,7 +103,7 @@ static NSString *const DLPostCellID = @"DLPostCell";
     [self.AFmanager GET:APIString parameters:par progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         self.posts = [DLPost mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
-        
+        NSLog(@"%@", responseObject);
         if (self.currentPar != par) {
             return ;
         }
@@ -133,9 +133,9 @@ static NSString *const DLPostCellID = @"DLPostCell";
     NSMutableDictionary *par = [NSMutableDictionary dictionary];
     par[@"a"] = @"list";
     par[@"c"] = @"data";
-    par[@"type"] = @"29";
+    par[@"type"] = @(self.postType);
     NSInteger page = self.page + 1;
-    par[@"page"] = @(self.postType);
+    par[@"page"] = @(page);
     par[@"maxtime"] = self.maxtime;
     self.currentPar = par;
     
@@ -177,13 +177,23 @@ static NSString *const DLPostCellID = @"DLPostCell";
     
     DLPostCell *c = [tableView dequeueReusableCellWithIdentifier:DLPostCellID];
     
-    c.post = self.posts[indexPath.row];
+    [self configureCell:c atIndexPath:indexPath];
     
     return c;
 }
 
+- (void)configureCell:(DLPostCell *)cell atIndexPath:(NSIndexPath *)indexPath{
+    
+    cell.post = self.posts[indexPath.row];
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
+
+    
+    return [tableView fd_heightForCellWithIdentifier:DLPostCellID cacheByIndexPath:indexPath configuration:^(id cell) {
+        
+        [self configureCell:cell atIndexPath:indexPath];
+    }];
 }
 
 @end
